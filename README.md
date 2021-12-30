@@ -1,5 +1,5 @@
 # Burger Place
-**Burger Place** is a design concept for an esoteric programming language that has a wordy syntax based on fast food restaurants and confusing semantics.
+**Burger Place** is a design concept for an esoteric programming language that has a wordy syntax based on fast food restaurants and confusing semantics. Design concept and all examples are available for free of charge.
 
 1. All data is made of stacks, which stores numbers and other stacks. The dish infers to the value you currently working on (accumulator). The term, top of, infers the last item of a stack, and calling them is recursive.
 
