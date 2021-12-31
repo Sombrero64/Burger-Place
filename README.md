@@ -73,6 +73,7 @@ Here's a list to every command available in Burger Place. Ones in *italic* are c
 | `A number Bs` | Adds **B** to the current stack by **A** times. |
 | `should i get a A or a B?`, `should i get an A or an B?` | Adds a random number (between **A** and **B**) to the current stack. |
 | *`a meal of`* | Adds a substack to the current stack. |
+| `that would be?` | Asks the user for some input. The answer gets converted into a number, then it adds said number to the current stack. | 
 | `what again?` | Asks the user for some input. Each character is converted into numbers, then it adds a substack to current stack out of said numbers. |
 | `that would be a A?`, `that would be an A?` | Adds a substack to current stack out of numbers based from **A**. |
 
