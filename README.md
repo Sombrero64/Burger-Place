@@ -3,7 +3,7 @@
 
 1. All data is made of stacks, which stores numbers and other stacks. The dish infers to the value you currently working on (accumulator). The term, top of, infers the last item of a stack, and calling them is recursive.
 
-2. Costumers are used to generate inputs and receive outputs so it can be logged to the console. The amount of times the order can be generated can be randomized. You can still display information without the need of costumers, but it can only be numbers.
+2. Customers are used to generate inputs and receive outputs so it can be logged to the console. The amount of times the order can be generated can be randomized. You can still display information without the need of costumers, but it can only be numbers.
 
 3. The fridge, which you store data, stores a limited number of “boxes” and these boxes cannot be named.
 
@@ -13,90 +13,6 @@
 
 6. Brackets are used to write comments.
 
-```
-[hello world program]
-orders for 1 to 1
-  i'l take
-    a number 48 [H]
-    a number 65 [e]
-    2 number 108s [ll]
-    a number 111 [o]
-    a number 44 [,]
-    a number 20 [space]
-    a number 119 [w]
-    a number 111 [o]
-    a number 114 [r]
-    a number 108 [l]
-    a number 100 [d]
-    a number 33 [!]
-
-in the kitchen
-  prepare order
-  it's ready!
-
-in the dining room
-  a costumer gets his and eats it
-	
-lunchtime!
-```
-```
-[truth-machine]
-orders for 1 to 1
-  that would be?
-
-fridge of 1
-
-in the kitchen
-  prepare order
-  is the dish cooked just right? [0]
-    lunch break!
-  not the case? [1]
-    store the dish in the fridge at 1
-    always
-      take 1 from the fridge
-      lunch break!
-    check again
-
-lunchtime!
-```
-```
-[basic multiplier]
-orders for 1 to 1
-  i'l take
-  that would be?
-  that would be?
-
-fridge of 3
-  [mem #1 is B / 0, mem #2 is A, mem #3 is product]
-  there's a 0
-	
-in the kitchen
-  [copy #1 to #3]
-  take from 1, and stack onto the dish
-  store the dish in the fridge at 3
-  [load inputs]
-  prepare order
-  store the dish in the fridge at 2
-  prepare order
-  store the dish in the fridge at 1
-  [repeat until B is zero]
-  does the dish need more work? 
-    throw away the dish
-    take 1 from the fridge
-    add 3 from the fridge with the dish
-    store the dish in the fridge at 3
-    add some salt to 1 from the fridge
-  check again
-  [output product]
-  take 3 from the fridge
-  it's ready!
-
-in the dining room
-  a costumer gets his and drinks first
-
-lunchtime!
-```
-
 ## Commands
 Here's a list to every command available in Burger Place. Ones in *italic* are code blocks. Each command can only be used in their respective category. 
 
@@ -104,7 +20,7 @@ Here's a list to every command available in Burger Place. Ones in *italic* are c
 | Command      | Information |
 | ------------ | ----------- |
 | *`orders for A to B`* | Generates orders (inputs). Repeats for a random number (between **A** and **B**) of times. |
-| *`i'l take`* | Creates a costumer and a stack to work with. |
+| *`i'll take`* | Creates a customer and a stack to work with. |
 | `a number A` | Adds **A** at the end of the current stack. |
 | `A number Bs` | Adds **B** to the current stack by **A** times. |
 | `should i get a A or a B?`, `should i get an A or an B?` | Adds a random number (between **A** and **B**) to the current stack. |
@@ -172,8 +88,8 @@ Condtional statements checks the value of the top of the dish, and runs selectio
 | Command      | Information |
 | ------------ | ----------- |
 | *`in the dining room`* | Uses generated outputs to display information back the user. |
-| `after some chit chat` | Repeats dining room code if there's any costumers left that didn't get any outputs. |
-| `a costumer gets his and drinks first`, `a costumer gets hers and drinks first`, `a costumer gets theirs and drinks first` | Outputs the first available output. |
-| `a costumer gets A and drinks first` | Outputs output #**A**. |
-| `a costumer gets his and eats it`, `a costumer gets hers and eats it`, `a costumer gets theirs and eats it` | Outputs the first available output converted into a string of characters. |
-| `a costumer gets A and eats it` | Outputs output #**A** converted into a string of characters. |
+| `after some chit chat` | Repeats dining room code if there's any customer left that didn't get any outputs. |
+| `a customer gets his and drinks first`, `a customer gets hers and drinks first`, `a costumer gets theirs and drinks first` | Outputs the first available output. |
+| `a customer gets A and drinks first` | Outputs output #**A**. |
+| `a customer gets his and eats it`, `a customer gets hers and eats it`, `a costumer gets theirs and eats it` | Outputs the first available output converted into a string of characters. |
+| `a customer gets A and eats it` | Outputs output #**A** converted into a string of characters. |
