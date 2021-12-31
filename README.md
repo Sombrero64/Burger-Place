@@ -16,49 +16,83 @@
 ```
 [hello world program]
 orders for 1 to 1
-    i'l take
-      a number 48 [H]
-      a number 65 [e]
-      2 number 108s [ll]
-      a number 111 [o]
-      a number 44 [,]
-      a number 20 [space]
-      a number 119 [w]
-      a number 111 [o]
-      a number 114 [r]
-      a number 108 [l]
-      a number 100 [d]
-      a number 33 [!]
+  i'l take
+    a number 48 [H]
+    a number 65 [e]
+    2 number 108s [ll]
+    a number 111 [o]
+    a number 44 [,]
+    a number 20 [space]
+    a number 119 [w]
+    a number 111 [o]
+    a number 114 [r]
+    a number 108 [l]
+    a number 100 [d]
+    a number 33 [!]
 
 in the kitchen
-    prepare order
-    it's ready!
+  prepare order
+  it's ready!
 
 in the dining room
-    a costumer gets his and eats it
+  a costumer gets his and eats it
 	
 lunchtime!
 ```
-
 ```
 [truth-machine]
 orders for 1 to 1
-    what again?
+  that would be?
 
 fridge of 1
 
 in the kitchen
-    prepare order
-    is the dish cooked just right? [0]
+  prepare order
+  is the dish cooked just right? [0]
+    lunch break!
+  not the case? [1]
+    store the dish in the fridge at 1
+    always
+      take 1 from the fridge
       lunch break!
-    not the case? [1]
-      store the dish in the fridge at 1
-      always
-        take 1 from the fridge
-        lunch break!
-      check again
+    check again
 
 lunchtime!
+```
+```
+[basic multiplier]
+orders for 1 to 1
+  i'l take
+  that would be?
+  that would be?
+
+fridge of 3
+  [mem #1 is B / 0, mem #2 is A, mem #3 is product]
+  there's a 0
+	
+in the kitchen
+  [copy #1 to #3]
+  take from 1, and stack onto the dish
+  store the dish in the fridge at 3
+  [load inputs]
+  prepare order
+  store the dish in the fridge at 2
+  prepare order
+  store the dish in the fridge at 1
+  [repeat until B is zero]
+  does the dish need more work? 
+    throw away the dish
+    take 1 from the fridge
+    add 3 from the fridge with the dish
+    store the dish in the fridge at 3
+    add some salt to 1 from the fridge
+  check again
+  [output product]
+  take 3 from the fridge
+  it's ready!
+
+in the dining room
+  a costumer gets his and drinks first
 ```
 
 ## Commands
