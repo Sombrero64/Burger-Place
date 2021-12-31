@@ -1,7 +1,7 @@
 # Burger Place
 **Burger Place** is a design concept for an esoteric programming language that has a wordy syntax based on fast food restaurants and confusing semantics. Design concept and all examples are available for free of charge.
 
-1. All data is made of stacks, which stores numbers and other stacks. The dish infers to the value you currently working on (accumulator). The term, top of, infers the last item of a stack, and calling them is recursive.
+1. All data is made of stacks, which stores numbers and other stacks. The dish infers to the value you are currently working on (accumulator). The term, top of, infers the last item of a stack, and calling them is recursive.
 
 2. Customers are used to generate inputs and receive outputs so it can be logged to the console. The amount of times the order can be generated can be randomized. You can still display information without the need of costumers, but it can only be numbers.
 
