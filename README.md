@@ -53,8 +53,8 @@ Here's a list to every command available in Burger Place. Ones in *italic* are c
 | `looking at the top of A, add with the dish` | References a box with the top of box #**A**, then overwrites the dish with the sum of the top of itself with the top of referenced box. |
 | `with A from the fridge, rip into the dish` | Overwrites the dish with the difference of the top of itself with the top of box #**A**. |
 | `looking at the top of A, rip into the dish` | References a box with the top of box #**A**, then overwrites the dish with the difference of the top of itself with the top of referenced box. |
-| `add some pepper onto the dish` | Increments the top of the dish by one, then updates the dish's value. |
-| `add some salt onto the dish` | Decrements the top of the dish by one, then updates the dish's value. |
+| `add some pepper on the dish` | Increments the top of the dish by one, then updates the dish's value. |
+| `add some salt on the dish` | Decrements the top of the dish by one, then updates the dish's value. |
 | `add some pepper to A from the fridge` | Increments the top of box #**A** by one, then updates both the box's and the dish's value with the new value. |
 | `add some salt to A from the fridge` | Decrements the top of box #**A** by one, then updates both the box's and the dish's value with the new value. |
 | `looking at the top of A, add some pepper` | Referencing a box with the top of box #**A**, increment its top by one, then updates both the box's and the dish's value with the new value. |
