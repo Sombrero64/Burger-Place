@@ -131,27 +131,6 @@ Condtional statements checks the value of the top of the dish, and runs selectio
 | `step back A times` | Breaks out of statements by **A** times. Does not loop current statement. |
 | `step back A times, check again` | Breaks out of statements by **A** times, then loops current statement. |
 
-```
-[no zeros from inputs]
-orders for 12 to 20
-    i'l take
-      should i get a -4 to 4?
-		
-in the kitchen
-    always
-      prepare order
-      is the dish missing?
-        step back 2 times
-      does the dish needs more work?
-        it's ready!
-    check again
-
-in the dining room
-      a costumer gets his and eats it
-	
-lunchtime!
-```
-
 ### Dining Room Commands
 | Command      | Information |
 | ------------ | ----------- |
