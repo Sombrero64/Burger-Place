@@ -135,6 +135,7 @@ Condtional statements checks the value of the top of the dish, and runs selectio
 | Command      | Information |
 | ------------ | ----------- |
 | *`in the dining room`* | Uses generated outputs to display information back the user. |
+| `after some chit chat` | Repeats dining room code if there's any costumers left that didn't get any outputs. |
 | `a costumer gets his and drinks first`, `a costumer gets hers and drinks first`, `a costumer gets theirs and drinks first` | Outputs the first available output. |
 | `a costumer gets A and drinks first` | Outputs output #**A**. |
 | `a costumer gets his and eats it`, `a costumer gets hers and eats it`, `a costumer gets theirs and eats it` | Outputs the first available output converted into a string of characters. |
