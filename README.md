@@ -89,7 +89,7 @@ Condtional statements checks the value of the top of the dish, and runs selectio
 | ------------ | ----------- |
 | *`in the dining room`* | Uses generated outputs to display information back the user. |
 | `after some chit chat` | Repeats dining room code if there's any customer left that didn't get any outputs. |
-| `a customer gets his and drinks first`, `a customer gets hers and drinks first`, `a costumer gets theirs and drinks first` | Outputs the first available output. |
+| `a customer gets his and drinks first`, `a customer gets hers and drinks first`, `a costumer gets theirs and drinks first` | Outputs the last available output. |
 | `a customer gets A and drinks first` | Outputs output #**A**. |
-| `a customer gets his and eats it`, `a customer gets hers and eats it`, `a costumer gets theirs and eats it` | Outputs the first available output converted into a string of characters. |
+| `a customer gets his and eats it`, `a customer gets hers and eats it`, `a costumer gets theirs and eats it` | Outputs the last available output converted into a string of characters. |
 | `a customer gets A and eats it` | Outputs output #**A** converted into a string of characters. |
